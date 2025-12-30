@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Zyro Travels | Login</title>
+
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body{
+      height: 100vh;
+      background: #0b0f14;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+    }
+
+    .login-box{
+      background: #111827;
+      width: 350px;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 0 30px rgba(0,0,0,0.7);
+    }
+
+    .login-box h2{
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 28px;
+    }
+
+    .input-group{
+      margin-bottom: 15px;
+    }
+
+    .input-group label{
+      font-size: 14px;
+      display: block;
+      margin-bottom: 5px;
+      color: #cbd5e1;
+    }
+
+    .input-group input{
+      width: 100%;
+      padding: 10px;
+      border-radius: 6px;
+      border: none;
+      outline: none;
+      background: #0b0f14;
+      color: white;
+      border: 1px solid #1f2933;
+    }
+
+    .forgot{
+      text-align: right;
+      font-size: 12px;
+      margin-bottom: 20px;
+    }
+
+    .forgot a{
+      color: #94a3b8;
+      text-decoration: none;
+    }
+
+    .forgot a:hover{
+      text-decoration: underline;
+    }
+
+    .login-btn{
+      width: 100%;
+      padding: 12px;
+      border: none;
+      border-radius: 25px;
+      font-size: 16px;
+      font-weight: bold;
+      color: white;
+      cursor: pointer;
+      background: linear-gradient(90deg, #06b6d4, #a855f7);
+    }
+
+    .login-btn:hover{
+      opacity: 0.9;
+    }
+
+    .or{
+      text-align: center;
+      margin: 20px 0;
+      font-size: 13px;
+      color: #9ca3af;
+    }
+
+    .socials{
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+    }
+
+   .socials div{
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-weight: bold;
+  color: white;
+}
+
+.fb{ background:#1877f2; }
+.tw{ background:#1da1f2; }
+.insta{
+  background: radial-gradient(
+    circle at 30% 30%,
+    #feda75,
+    #fa7e1e,
+    #d62976,
+    #962fbf,
+    #4f5bd5
+  );
+}
+
+    .signup{
+      text-align: center;
+      margin-top: 20px;
+      font-size: 13px;
+    }
+
+    .signup a{
+      color: #38bdf8;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="login-box">
+    <h2>Login</h2>
+
+    <div class="input-group">
+      <label>Username</label>
+      <input type="text" placeholder="Type your username">
+    </div>
+
+    <div class="input-group">
+      <label>Password</label>
+      <input type="password" placeholder="Type your password">
+    </div>
+
+    <div class="input-group">
+      <label>Phone Number</label>
+      <input type="number" placeholder="Type your phone number">
+    </div>
+
+    <div class="forgot">
+      <a href="#">Forgot password?</a>
+    </div>
+
+    <button class="login-btn">LOGIN</button>
+
+    <div class="or">Or Sign Up Using</div>
+
+    <div class="socials">
+      <div class="fb">f</div>
+      <div class="tw">t</div>
+      <div class="insta">i</div>
+    </div>
+
+    <div class="signup">
+      Or Sign Up Using <br>
+      <a href="#">SIGN UP</a>
+    </div>
+  </div>
+
+</body>
+</html>
